@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7e7bc54d-d719-4cfd-b7f4-ad61af5c12c2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 80.01)
+		(size 77.47 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3afd5dd2-71b3-4fb3-bbd7-f2685dde67c6")
+		(property "Sheetname" "Power_Stage_LaneA"
+			(at 25.4 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Stage_LaneA.kicad_sch"
+			(at 25.4 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_rane"
+				(path "/7e7bc54d-d719-4cfd-b7f4-ad61af5c12c2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 26.67)
+		(size 67.31 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6330cac7-b202-4e8a-bc4b-de039354facb")
+		(property "Sheetname" "Power_Supply"
+			(at 25.4 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 25.4 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_rane"
+				(path "/7e7bc54d-d719-4cfd-b7f4-ad61af5c12c2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 52.07)
+		(size 76.2 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96b7083c-d31f-43cd-b16d-24d513e7621b")
+		(property "Sheetname" "MCU"
+			(at 25.4 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 25.4 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_rane"
+				(path "/7e7bc54d-d719-4cfd-b7f4-ad61af5c12c2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
